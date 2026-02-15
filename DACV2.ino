@@ -1,11 +1,11 @@
 #include "Arduino.h"
-#include "SensorManager.h" // Include your custom header file
+#include "SensorManager.h" 
 
 void setup() {
   Serial.begin(115200);
 
   // Add setup for other serial ports, I2C, SPI, etc. if needed
-  // Example: Wire.begin(); // For I2C sensors
+ 
 
   delay(2000); // Give Serial Monitor time to connect
   Serial.println(F("--- System Setup Starting ---"));
